@@ -1,0 +1,22 @@
+{
+  "criteria": [
+    { "name": "Accuracy", "weight": 25 },
+    { "name": "Groundedness", "weight": 20 },
+    { "name": "Completeness", "weight": 20 },
+    { "name": "Clarity & Structure", "weight": 10 },
+    { "name": "Handling Ambiguity", "weight": 10 },
+    { "name": "Hallucination Resistance", "weight": 10 },
+    { "name": "Formatting / Fidelity", "weight": 5 }
+  ],
+  "passThreshold": 70,
+  "batch": [
+    {
+      "PromptID": "P1",
+      "Prompt": "Explain how to reduce hallucinations in LLMs."
+    },
+    {
+      "PromptID": "P2",
+      "Prompt": "State why AI hallucinations happen."
+    }
+  ]
+}

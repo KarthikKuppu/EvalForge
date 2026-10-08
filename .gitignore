@@ -1,0 +1,20 @@
+node_modules/
+.env
+.env.*
+!.env.example
+
+dist/
+coverage/
+
+# generated outputs
+*.log
+evaluation-output.xlsx
+evaluation-report.html
+
+# local working files
+input.xlsx
+input.csv
+
+# editor settings
+.vscode/
+.DS_Store

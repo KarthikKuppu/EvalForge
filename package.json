@@ -1,0 +1,14 @@
+{
+  "name": "llm-evaluator-agent",
+  "version": "1.0.0",
+  "description": "Reusable LLM evaluator agent for scoring batches of prompts using weighted rubric criteria.",
+  "main": "llm_judge_agent_starter.js",
+  "scripts": {
+    "start": "node -r dotenv/config llm_judge_agent_starter.js",
+    "test:excel": "node -r dotenv/config llm_judge_agent_starter.js input.xlsx"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "xlsx": "^0.18.5"
+  }
+}
